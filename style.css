@@ -1,0 +1,12 @@
+canvas{
+    max-width:500px;
+    height:auto;
+    mix-blend-mode: hard-light;
+
+  }
+img{
+    max-width:350px;
+    height:auto;
+    mix-blend-mode: hard-light;
+
+  }

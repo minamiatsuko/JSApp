@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+
+
+    <script src="file1.js"></script>
+    <script src="file2.js"></script>
+</head>
+<body>
+    <div>
+
+        <div>
+            <!-- preview02.js , cmanObjMove_v091.js-->
+            <input type="file" name="file" id="myPdf01" accept=".png, .jpg, .jpeg, .pdf, .doc" capture="camera">
+            <img src="" alt="" id="preview01" cmanOMat="move"></img>
+            <canvas id="pdfViewer01" cmanOMat="move"></canvas>
+        </div>      
+
+        <div id="buttons">
+            <input type="button" value="右回転" onclick="rotate1(0.5);">
+            <input type="button" value="左回転" onclick="rotate1(-0.5);">
+            <input type="button" value="拡大" onclick="scale1(0.01);">
+            <input type="button" value="縮小" onclick="scale1(-0.01);">
+          </div>
+          <div id="buttons">
+            <input type="button" value="右回転" onclick="rotate3(0.5);">
+            <input type="button" value="左回転" onclick="rotate3(-0.5);">
+            <input type="button" value="拡大" onclick="scale3(0.01);">
+            <input type="button" value="縮小" onclick="scale3(-0.01);">
+          </div>
+         
+
+
+        <div>
+            <!-- preview02.js , cmanObjMove_v091.js-->
+            <input type="file" name="file" id="myPdf02" accept=".png, .jpg, .jpeg, .pdf, .doc" capture="camera">
+            <img src="" alt="" id="preview02" cmanOMat="move"></img>
+            <canvas id="pdfViewer02" cmanOMat="move"></canvas>
+        </div>      
+          
+        
+
+          <div id="buttons">
+            <input type="button" value="右回転" onclick="rotate2(0.5);">
+            <input type="button" value="左回転" onclick="rotate2(-0.5);">
+            <input type="button" value="拡大" onclick="scale2(0.01);">
+            <input type="button" value="縮小" onclick="scale2(-0.01);">
+          </div>
+          <div id="buttons">
+            <input type="button" value="右回転" onclick="rotate4(0.5);">
+            <input type="button" value="左回転" onclick="rotate4(-0.5);">
+            <input type="button" value="拡大" onclick="scale4(0.01);">
+            <input type="button" value="縮小" onclick="scale4(-0.01);">
+          </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="cmanObjMove_v091.js" type="text/javascript" charset="utf-8"></script>
+    <script src="rotate&scale.js"  type="text/javascript"></script>
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="preview01.js"  type="text/javascript"></script>
+    <script src="preview02.js"  type="text/javascript"></script>
+</body>
+</html>
